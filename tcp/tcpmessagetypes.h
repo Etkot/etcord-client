@@ -1,0 +1,16 @@
+#ifndef TCPMESSAGETYPES_H
+#define TCPMESSAGETYPES_H
+
+// All tcp message id defines
+
+#define TCP_ERROR 0
+#define TCP_GET_CLIENTS 1
+#define TCP_GET_CHANNELS 2
+#define TCP_GET_TEXT_HISTORY 3
+
+#define TCP_CHAT_MESSAGE 10
+
+#define TCP_VOICE_CHANNEL_JOIN 20
+#define TCP_VOICE_CHANNEL_LEAVE 21
+
+#endif // TCPMESSAGETYPES_H
